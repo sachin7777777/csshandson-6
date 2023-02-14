@@ -1,0 +1,106 @@
+body{
+    background-image: url(./sahara\ desert.jpg);
+}
+.chidiya{
+    margin-top: 17px;
+    margin-left: 70px;
+}
+.top{
+    float: right;
+    word-spacing: 40px;
+    margin: 15px;
+    display: flex;
+    margin-right: 100px;
+}
+.p{
+    display: inline;
+}
+.menu{
+    margin: -12px;
+    margin-left: 32px;
+}
+.maincontainer{
+    display: flex;
+    width: 100%;
+}
+.container1{
+    margin: 113px;
+    margin-top: 47px;
+}
+.head{
+    font-size: 115px;
+    margin-bottom: 15px;
+}
+.white{
+    color: white;
+}
+.explore{
+    background-color: white;
+    border-radius: 35%;
+    width: 152px;
+    height: 34px;
+    /* border: 2px solid red; */
+}
+.container2{
+    display: flex;
+    flex-wrap: wrap;
+    width: 615px;
+    height: 530px;
+    /* border: 2px solid green; */
+    margin-left: 99px;
+    margin-top: 18px;
+}
+.box{
+    height: 220px;
+    width: 200px;
+    /* border: 2px solid red; */
+    border-radius: 7px;
+    margin-left: 55px;
+}
+
+#box1{
+    background-image: url(./pic-1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+}
+#box2{
+    background-image: url(./pic-2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+#box3{
+    background-image: url(./pic-3.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+#box4{
+    background-image: url(./pic-4.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.inside{
+    padding-left: 20px;
+    line-height: 5px;
+    color: white;
+}
+@media screen and (max-width: 900px){
+    .maincontainer{
+        flex-direction: column;
+    }
+    .container1{
+        width: 100%;
+    }
+    .container2{
+        /* flex-direction: column; */
+        width: 100%;
+    }
+    .box{
+        width: 600px;
+        margin: 10px;
+    }
+}
