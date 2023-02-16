@@ -57,9 +57,6 @@ body{
     border-radius: 7px;
     margin-left: 55px;
 }
-.box:hover{
-    transform: translateY(-15px);
-}
 #box1{
     background-image: url(./pic-1.jpg);
     background-repeat: no-repeat;
